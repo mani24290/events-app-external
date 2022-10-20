@@ -41,6 +41,7 @@ describe('GET /', function () {
       //define the method to be intercepted
       .get('/events')
       //respond with an error
+      //manisha
       .replyWithError("Error");
 
     request(app)
